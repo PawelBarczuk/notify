@@ -1,20 +1,41 @@
 body {
     margin: 0 0 0 0;
-
 }
 
 header {
     background-image: url(../gfx/bg.png);
+    background-position: center; 
     width: 100%;
-    height: 100%;
-    border: 1px black solid;
+    height: 600px;
     background-repeat: no-repeat;
     border-top: 10px #2ecc71 solid;
 }
 
-header p {
+#desc {
     font-size: 60px;
     font-family: 'Pacifico', cursive;
     color: white;
-    margin: 175px 200px 50px 85px;
+    margin: 180px 0px 0px 200px;
+}
+
+#desc p {
+    font-size: 24px;
+    font-family: sans-serif;
+    max-width: 500px;
+    margin-bottom: 0;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    border 3px;
+    background-color: black;
+    opacity: 0.3;
+    width: 50px;
+    height: 50px;
+}
+
+.circle:hover {
+    opacity: 1;
+    background-color: #2ecc71;
 }
