@@ -54,13 +54,15 @@ header {
 
 .feature {
     text-align: center;
-    border: 1px black solid;
     max-width: 300px;
+    padding: 10px;
+    border: 1px;
 }
 
 #features {
     width: 100%;
 }
+
 
 .container {
     padding: 5%;
@@ -116,6 +118,11 @@ form {
     flex-wrap: nowrap;
     height: 50px;
     width: 100%;
+}
+
+#video {
+    width: 100%;
+    max-width: 500px;
 }
 
 input[type=email] {
