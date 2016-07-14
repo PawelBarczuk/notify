@@ -122,7 +122,6 @@ input[type=email] {
     border-bottom-left-radius: 15px;
     padding-left: 10px;
     box-sizing: border-box;
-    width: 100%;
     max-width: 250px;
 }
 button {
