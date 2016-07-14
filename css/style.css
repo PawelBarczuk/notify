@@ -123,6 +123,7 @@ input[type=email] {
     padding-left: 10px;
     box-sizing: border-box;
     width: 100%;
+    max-width: 250px;
 }
 button {
     border: 1px solid lightgrey;
