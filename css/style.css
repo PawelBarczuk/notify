@@ -133,6 +133,8 @@ input[type=email] {
     padding-left: 10px;
     padding-right: 10px;
     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     max-width: 250px;
 }
 button {
