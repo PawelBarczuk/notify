@@ -104,23 +104,29 @@ h1{
 
 input {
     margin: 0;
+    outline: none;
 }
 
 input[type=email] {
-    width: 70%;
+    width: 60%;
     height: 50px;
     border: 1px solid lightgrey;
     border-right: 0px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    padding: 0px;
+    padding-left: 10px;
+    box-sizing: border-box;
 }
 button {
-    height: 52px;
+    height: 50px;
     border: 1px solid lightgrey;
     border-left: 0px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     background-color: #2ecc71; 
     margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-weight: 600;
 }
