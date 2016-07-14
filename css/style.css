@@ -104,6 +104,9 @@ h1{
 
 #form {
     max-width: 500px;
+    @media (max-width: 300px) {
+        max-width: 250px;
+  }
 }
 
 form {
@@ -121,6 +124,7 @@ input[type=email] {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     padding-left: 10px;
+    padding-right: 10px;
     box-sizing: border-box;
     max-width: 250px;
 }
